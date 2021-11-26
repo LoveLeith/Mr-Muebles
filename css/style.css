@@ -1,0 +1,52 @@
+* {
+  font-family: 'Roboto', sans-serif; }
+
+.header {
+  width: 100vw;
+  height: 6rem;
+  box-shadow: 0 .5rem; }
+  .header__logo img {
+    height: 3rem; }
+
+.carousel-item p {
+  background-color: rgba(255, 228, 196, 0.521);
+  padding: 2rem;
+  border-radius: 1rem; }
+
+.ftr {
+  background-color: #ececec; }
+  .ftr__anchor {
+    padding-top: .5rem; }
+    .ftr__anchor a {
+      color: #000;
+      text-decoration: none; }
+    .ftr__anchor hr {
+      margin-top: 0.5rem;
+      margin-bottom: 0; }
+
+.icon {
+  height: 1.4rem;
+  margin-right: 1rem; }
+
+.productos-anchor {
+  background-color: #2cacac;
+  border-radius: .6rem;
+  max-width: fit-content !important;
+  padding: 1rem; }
+  .productos-anchor a {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none; }
+
+.envios-title {
+  font-size: 200%;
+  font-weight: 400; }
+  .envios-title::after {
+    display: block;
+    content: '';
+    height: .2rem;
+    width: 90vw;
+    background-color: #2cacac;
+    position: absolute;
+    left: 4%;
+    margin: 1rem 0; }

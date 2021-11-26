@@ -1,0 +1,11 @@
+.productos-anchor{
+    background-color: #2cacac;
+    border-radius: .6rem;
+    max-width: fit-content !important;
+    padding: 1rem;
+    & a{
+        color: #fff;
+        font-weight: 700;
+        text-decoration: none;
+    }
+}

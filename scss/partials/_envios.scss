@@ -1,0 +1,14 @@
+.envios-title{
+    font-size: 200%;
+    font-weight: 400;
+    &::after{
+        display: block;
+        content: '';
+        height: .2rem;
+        width: 90vw;
+        background-color: #2cacac;
+        position: absolute;
+        left: 4%;
+        margin: 1rem 0;
+    }
+}
